@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+    <title>Furniture Shop</title>
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <div class="heading">
+      <audio src="Bohemian Rhapsody(Mercury).mp3" id="myAudio" logo="loop" autoplay="allowed"></audio>
+
+      <div class="countdown"><h1>Time until we are open</h1></div>
+      <button id="playButton"><img src="https://cdn.glitch.global/3999d4ff-0f42-48a4-9ca6-62afeabbd7ec/W0BqVJB6KVj8.gif?v=1699627010290" alt="Button Play" /></button>
+
+      <div class="countdownContainer">
+        <div class="christmas">
+          <div class="block">
+            <h5 class="days"></h5>
+            <h3>DAYS</h3>
+          </div>
+        </div>
+
+        <div class="christmas">
+          <div class="block">
+            <h5 class="hours"></h5>
+            <h3>HOURS</h3>
+          </div>
+        </div>
+
+        <div class="christmas">
+          <div class="block">
+            <h5 class="minutes"></h5>
+            <h3>MINUTES</h3>
+          </div>
+        </div>
+
+        <div class="christmas">
+          <div class="block">
+            <h5 class="seconds"></h5>
+            <h3>SECONDS</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="item one selected">
+        <h4>Berta</h4>
+        <p class="par">interchangeable sectional sofa-bed with storage</p>
+        <p class="price">5000$</p>
+      </div>
+      <div class="item two">
+        <h4>Belgravia</h4>
+        <p class="par">sofa-bed with memory foam mattress</p>
+        <p class="price">2000$</p>
+      </div>
+      <div class="item three">
+        <h4>Foodien</h4>
+        <p class="par">recycled teak end table</p>
+        <p class="price">1000$</p>
+      </div>
+      <div class="item four">
+        <h4>Family</h4>
+        <p class="par">acacia wood dining table</p>
+        <p class="price">2500$</p>
+      </div>
+      <div class="item five">
+        <h4>Shean</h4>
+        <p class="par">tufted velvet sofa-bed</p>
+        <p class="price">2100$</p>
+      </div>
+      <div class="item six">
+        <h4>Rabia</h4>
+        <p class="par">tufted upholstered wingback queen size bed with storage</p>
+        <p class="price">5000$</p>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>Send us a message!</h3>
+    </div>
+
+    <form action="https://formspree.io/f/mdorbzpl" method="POST">
+      <input type="hidden" name="_language" value="en" />
+      <div class="footer">
+        <label>
+          Your email:
+          <input type="email" class="text_input" name="email" placeholder="Your Email" required="" />
+        </label>
+      </div>
+
+      <div class="footer">
+        <label class="message">
+          Your message:
+          <textarea name="message" class="text_input" placeholder="Type your message..." required=""></textarea>
+        </label>
+      </div>
+      <br />
+
+      <div class="footer"><button type="submit" class="btn">Send</button></div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
